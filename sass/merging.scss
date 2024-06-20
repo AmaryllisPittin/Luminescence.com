@@ -10,7 +10,7 @@
     flex-direction:column;
 }
 
-/********************************************/
+/*****************DISPLAYS***************************/
 
 .topbar-container,
 .form-li {
@@ -18,7 +18,9 @@
 }
 
 .contact,
-.a-propos {
+.a-propos,
+.boutique,
+.categorie-container {
     @include flex-column;
 }
 
@@ -28,6 +30,17 @@ footer,
 .colored-footer,
 .white-footer {
     display:flex;
+}
+
+.card {
+    display:block;
+}
+
+.casques-container {
+    display:grid;
+    grid-template-columns: repeat(4, 3fr);
+    row-gap:0px;
+    column-gap: 5%;
 }
 
 /************POSITIONS**************************/
@@ -42,4 +55,36 @@ footer,
 
 .topbar-container {
     position:relative;
+}
+
+/*****************JUSTIFY-CONTENT & ALIGN-ITEMS*************************/
+
+.topbar-container,
+.contact,
+.a-propos,
+.boutique,
+.categorie-container {
+    align-items: center;
+}
+
+.header,
+footer,
+.colored-footer,
+.contact,
+.button-container {
+    justify-content: center;
+}
+
+.topbar-container {
+    justify-content: space-around;
+}
+
+/************************GLOBAL*********************************************/
+
+.topbar-container {
+    z-index:1000;
+}
+
+.header {
+    z-index:1;
 }
