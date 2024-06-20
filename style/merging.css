@@ -1,0 +1,34 @@
+/****************DISPLAY FLEX*****************/
+/********************************************/
+.topbar-container,
+.form-li {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact,
+.a-propos {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+footer,
+.button-container,
+.colored-footer,
+.white-footer {
+  display: flex;
+}
+
+/************POSITIONS**************************/
+.header__h1,
+.header__h2,
+footer,
+.colored-foote,
+.white-footer {
+  position: absolute;
+}
+
+.topbar-container {
+  position: relative;
+}/*# sourceMappingURL=merging.css.map */

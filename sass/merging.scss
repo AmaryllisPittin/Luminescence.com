@@ -1,0 +1,45 @@
+/****************DISPLAY FLEX*****************/
+
+@mixin flex-row {
+    display:flex;
+    flex-direction:row;
+}
+
+@mixin flex-column {
+    display:flex;
+    flex-direction:column;
+}
+
+/********************************************/
+
+.topbar-container,
+.form-li {
+    @include flex-row;
+}
+
+.contact,
+.a-propos {
+    @include flex-column;
+}
+
+.header,
+footer,
+.button-container,
+.colored-footer,
+.white-footer {
+    display:flex;
+}
+
+/************POSITIONS**************************/
+
+.header__h1,
+.header__h2,
+footer,
+.colored-foote,
+.white-footer {
+    position:absolute;
+}
+
+.topbar-container {
+    position:relative;
+}

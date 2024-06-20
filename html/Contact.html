@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminescence.com</title>
+    <link href="../style/mainStyle.css" rel="stylesheet">
+    <link href="../style/merging.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <topbar class="topbar">
+        <ul class="topbar-container">
+            <li class="topbar-links">
+                <a href="./index.html">Accueil</a>
+            </li>
+            <li class="topbar-links">
+                <a href="./boutique.html">Boutique</a>
+            </li>
+            <li class="topbar-links">
+                <a href="./a-propos.html">A propos</a>
+            </li>
+            <li class="topbar-links">
+                <a href="Contact.html">Contact</a>
+            </li>
+        </ul>
+    </topbar>
+    <section class="contact">
+        <h1 class="contact__h1">Besoin de nous contacter ? Nous sommes à votre disposition !</h1>
+        <form action="/ma-page-de-traitement" method="post">
+            <ul>
+              <li class="form-li">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li class="form-li">
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="user_mail" />
+              </li>
+              <li class="form-li">
+                <label for="msg">Message</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
+            <div class="button-container">
+              <button type="submit" href="mailto:amapaddle@gmail.com" class="button">Envoyer</button>
+            </div>
+          </form>
+          <section class="colored-footer">
+            © Juin 2024. Site web développé par Amaryllis Pittin.
+          </section>
+    </section>
+</body>
+</html>

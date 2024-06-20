@@ -1,0 +1,161 @@
+/********COLORS RULES*****************/
+/**************COLORS***********************/
+.header__h1,
+.header__h2,
+footer,
+label,
+.contact__h1,
+.colored-footer {
+  color: white;
+}
+
+.topbar-container,
+.a-propos,
+.white-footer {
+  color: rgb(161, 2, 175);
+}
+
+/*****************BACKGROUND-COLORS*************************/
+.contact {
+  background: rgb(217, 103, 173);
+  background: linear-gradient(50deg, rgb(217, 103, 173) 0%, rgb(235, 104, 180) 25%, rgb(254, 148, 212) 50%, rgb(186, 111, 255) 69%, rgb(131, 199, 241) 100%);
+}
+
+.a-propos {
+  background-color: white;
+}
+
+/*****************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.topbar-container {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.topbar-links,
+li {
+  list-style-type: none;
+}
+
+.header {
+  width: 100%;
+  justify-content: center;
+  z-index: 1;
+}
+.header__img {
+  width: 100%;
+}
+.header__h1 {
+  top: 400px;
+  left: 170px;
+  font-weight: 800;
+  font-size: 60px;
+}
+.header__h2 {
+  top: 490px;
+  left: 170px;
+  font-size: 20px;
+}
+
+footer,
+.colored-footer {
+  top: 1080px;
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.colored-footer {
+  top: 1010px;
+}
+
+.contact {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1000px;
+}
+.contact__h1 {
+  margin-bottom: 80px;
+  font-size: 37px;
+}
+
+.form-li {
+  width: 800px;
+}
+
+label {
+  width: 11%;
+}
+
+input,
+textarea {
+  width: 89%;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: solid 3px white;
+  border-radius: 20px;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus {
+  border-color: rgb(161, 2, 175);
+  color: white;
+  outline: none;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.button-container {
+  width: 100%;
+  justify-content: center;
+}
+
+.button {
+  background-color: white;
+  border: solid 3px white;
+  border-radius: 20px;
+  color: rgb(161, 2, 175);
+  width: 87%;
+  height: 40px;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.a-propos {
+  align-items: center;
+  width: 100%;
+}
+
+.a-propos__h1 {
+  margin-top: 150px;
+}
+
+.a-propos p {
+  margin-top: 40px;
+  margin-bottom: 150px;
+  width: 60%;
+}
+
+.white-footer {
+  top: 1570px;
+  font-size: 25px;
+  font-weight: 400;
+}/*# sourceMappingURL=mainStyle.css.map */
