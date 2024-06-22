@@ -16,10 +16,31 @@
     &__h1 {
         top:400px;
         left:170px;
+        @media (max-width: 1024px) {
+            top: 250px;
+            left: 60px;
+            font-size: 40px;
+        }
+        @media (max-width: 768px) {
+            top: 70px;
+            left: 20px;
+            font-size: 17px;
+        }
     }
     &__h2 {
         top:490px;
         left:170px;
+        @media (max-width: 1024px) {
+            top: 340px;
+            left: 60px;
+            width: 40%;
+        }
+        @media (max-width: 768px) {
+            top: 140px;
+            left: 20px;
+            width: 40%;
+            font-size: 13px;
+        }
     }
 }
 
@@ -85,4 +106,22 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     width:100%;
     padding-left:7.5%;
     padding-right:7.5%;
+}
+
+.boutique-footer {
+    top:7040px;
+    @media (max-width:768px) {
+        top: 18040px;
+    }
+}
+
+.categorie-container__titre {
+    margin-bottom:20px;
+}
+
+.card {
+    @media (max-width: 768px) {
+        height: 400px;
+        width: 75%;
+    }
 }

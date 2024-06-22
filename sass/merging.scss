@@ -41,6 +41,10 @@ footer,
     grid-template-columns: repeat(4, 3fr);
     row-gap:0px;
     column-gap: 5%;
+    @media (max-width:768px) {
+        @include flex-column;
+        align-items:center;
+    }
 }
 
 /************POSITIONS**************************/
@@ -48,8 +52,9 @@ footer,
 .header__h1,
 .header__h2,
 footer,
-.colored-foote,
-.white-footer {
+.colored-footer,
+.white-footer,
+.boutique-footer {
     position:absolute;
 }
 

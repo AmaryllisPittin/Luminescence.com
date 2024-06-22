@@ -13,7 +13,8 @@ label,
 .topbar-container,
 .a-propos,
 .white-footer,
-.boutique__h1 {
+.boutique__h1,
+.boutique-footer {
   color: rgb(161, 2, 175);
 }
 
